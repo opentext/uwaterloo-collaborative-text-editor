@@ -1,0 +1,11 @@
+.editor {
+  margin-top: calc(72px + 10px);
+  height: calc(100vh - 120px);
+  width: calc(100vw - 240px);
+}
+
+@media (max-width: 600px) {
+  .editor {
+    width: 100vw;
+  }
+}
